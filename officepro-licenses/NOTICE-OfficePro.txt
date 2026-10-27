@@ -1,0 +1,10 @@
+OfficePro
+Copyright 2026 Stanislav Georgiev
+
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+Third-party components bundled with the app, with their licences and the
+notices they require, are listed in THIRD_PARTY_NOTICES.md. Their texts are
+in licenses/, which the app shows under Settings > About > Open-source
+licenses and which is mirrored at
+https://github.com/slaviboy/slaviboy/tree/main/officepro-licenses.
