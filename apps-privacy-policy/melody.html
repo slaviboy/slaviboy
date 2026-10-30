@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Melody – Privacy Policy</title>
+<style>
+  body { font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; color: #1c1b22; background: #fff; margin: 0; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 20px 64px; }
+  h1 { font-size: 2rem; margin: 0 0 4px; }
+  h2 { font-size: 1.25rem; margin: 2rem 0 .5rem; }
+  .meta { color: #5d5b69; margin: 0 0 1.5rem; }
+  table { border-collapse: collapse; width: 100%; margin: .75rem 0; font-size: .95rem; }
+  th, td { border: 1px solid #d9d7e2; padding: 8px 10px; text-align: left; vertical-align: top; }
+  th { background: #f4f2fa; }
+  a { color: #5b3fd1; }
+  @media (prefers-color-scheme: dark) {
+    body { background: #14131a; color: #ecebf2; }
+    .meta { color: #a9a7b6; }
+    th, td { border-color: #3a3846; }
+    th { background: #1f1d29; }
+    a { color: #b9a6ff; }
+  }
+</style>
+</head>
+<body>
+<main>
+<h1>Melody – Privacy Policy</h1>
+<p class="meta">Effective 2026-10-30 · Applies to the Melody app for Android (package <code>com.slaviboy.melody</code>)</p>
+
+<p>Melody is a music-making app published by Stanislav Georgiev ("I", "me"). This policy explains what the app does with data, who receives it and what you can control. In short: <strong>your songs, recordings and settings stay on your device, and I do not run any account system or server that stores your personal data.</strong> The only data that leaves your device is optional usage and crash data, and the downloads of sound packs.</p>
+
+<h2>1. Data that stays on your device</h2>
+<ul>
+  <li><strong>Your music.</strong> Songs, takes, recordings, loops, imported files and your settings are stored in the app's private storage. I never receive them.</li>
+  <li><strong>Microphone.</strong> If you allow the microphone permission, Melody uses it only while you record, monitor an input, tune with the Amp or turn a whistle or hum into notes. The audio is processed on your device and is not uploaded.</li>
+  <li><strong>Files you choose.</strong> Melody opens or saves files (audio, MIDI, MusicXML, <code>.melody</code> projects) only through the system file picker or share sheet, and only the ones you pick or share. Where a file goes after you share it (another app, email, cloud storage) is up to you and that app.</li>
+  <li><strong>Bluetooth and USB MIDI.</strong> If you connect a MIDI keyboard or controller, Melody talks to that device to receive notes. Bluetooth permissions are used only for finding and connecting MIDI devices; Melody does not use them to determine your location.</li>
+</ul>
+
+<h2>2. Data that leaves your device</h2>
+
+<h3>2.1 Usage and crash data (optional)</h3>
+<p>Release builds of Melody use <strong>Firebase Analytics</strong> and <strong>Firebase Crashlytics</strong>, services of Google LLC, to learn which features are used and to find and fix crashes. This is on by default and <strong>you can turn it off at any time in Melody → App Settings → Share Usage Data.</strong> Turning it off stops collection, deletes crash reports not yet sent and resets the analytics data kept on your device.</p>
+<table>
+  <tr><th>Data</th><th>Examples</th><th>Purpose</th></tr>
+  <tr><td>App activity</td><td>Which screens, instruments, sounds and features you open (built-in names and choices only, never text you type, names you give songs or anything you record)</td><td>Analytics: improve the app</td></tr>
+  <tr><td>App info and performance</td><td>Crash logs and diagnostics: app version, Android version, device model, state of the audio engine, whether headphones are connected</td><td>Fix crashes</td></tr>
+  <tr><td>Device or other IDs</td><td>A random Firebase installation / app-instance ID. IP address may be processed by Google to deliver the data</td><td>Tell installations apart; count users without identifying you</td></tr>
+</table>
+<p>Melody does <strong>not</strong> read the Android advertising ID, does not use advertising or ad personalisation, does not collect your name, email address, phone number, contacts, photos or location, and does not sell your data. Google processes this data on my behalf as a service provider; see <a href="https://firebase.google.com/support/privacy">Firebase privacy and security</a> and <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>. The data is encrypted in transit.</p>
+
+<h3>2.2 Sound pack downloads</h3>
+<p>Instrument sounds and some app data are downloaded the first time you use them. Your device requests the files from public hosting (GitHub and GitLab). Like any web request, the host can see your IP address and the request time under its own privacy policy: <a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement">GitHub</a>, <a href="https://about.gitlab.com/privacy/">GitLab</a>. I do not add any identifier of yours to these requests. Likewise, when you open the Open-Source Licences screen, the licence texts are loaded online.</p>
+
+<h2>3. Permissions Melody asks for</h2>
+<ul>
+  <li><strong>Internet / network state:</strong> download sound packs, show whether a failed download is due to being offline, send optional usage and crash data.</li>
+  <li><strong>Microphone:</strong> recording, input monitoring, tuner and whistle-to-melody. Requested only when you use these.</li>
+  <li><strong>Bluetooth (scan / connect):</strong> connect Bluetooth LE MIDI devices.</li>
+</ul>
+
+<h2>4. Sharing</h2>
+<p>I do not sell or rent data and do not share it with advertisers or data brokers. The only parties that receive data are Google (Firebase, section 2.1) and the hosts of the sound packs (section 2.2), as described above. I may disclose information if the law requires it.</p>
+
+<h2>5. Retention and your choices</h2>
+<ul>
+  <li>On-device content stays until you delete it or uninstall the app; uninstalling removes it all.</li>
+  <li>Usage and crash data is kept by Firebase for the periods set in the Firebase console (Google's defaults), after which it is deleted automatically.</li>
+  <li>Switch off <em>Share Usage Data</em> at any time. Because the data is tied to a random installation ID and not to your identity, I cannot look up one person's data; if you want your installation's data removed, email me and describe the request, or reset it by turning the switch off and clearing the app's storage.</li>
+  <li>You can revoke the microphone and Bluetooth permissions in Android settings at any time.</li>
+</ul>
+
+<h2>6. Security</h2>
+<p>Data in transit is sent over HTTPS. Your songs and recordings are kept in the app's private storage, which other apps cannot read on an unmodified device. No method of storage or transmission is completely secure, and I cannot guarantee absolute security.</p>
+
+<h2>7. Children</h2>
+<p>Melody is not directed at children under 13, and I do not knowingly collect personal information from them. The app asks for no account or personal details. If you believe a child has provided personal information, contact me and I will help remove it.</p>
+
+<h2>8. Your rights</h2>
+<p>Depending on where you live (for example in the EU/UK under the GDPR, or California under the CCPA), you may have the right to access, correct, delete or restrict the use of personal data, or to object to it. Usage data is collected on the basis of your choice (the Share Usage Data switch) and can be withdrawn at any time. Contact me to exercise a right.</p>
+
+<h2>9. Changes to this policy</h2>
+<p>I may update this policy. The effective date above shows the latest version, and changes are published on this page.</p>
+
+<h2>10. Contact</h2>
+<p>Stanislav Georgiev – <a href="mailto:slavi94slavi94@gmail.com">slavi94slavi94@gmail.com</a></p>
+</main>
+</body>
+</html>
